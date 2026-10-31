@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
 """
 Vehicle-Loan Default Prediction for First-Time Borrowers
-DU B.Sc. (H) CS - Semester VI Machine Learning Assignment (Problem 42)
-Author: Khushveer Kaur (Roll No. 24020570052)
+
 """
 
 import os
