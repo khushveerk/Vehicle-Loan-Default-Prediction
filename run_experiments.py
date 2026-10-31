@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 """
 Vehicle-Loan Default Prediction for First-Time Borrowers
 
