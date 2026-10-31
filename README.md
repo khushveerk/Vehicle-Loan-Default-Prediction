@@ -38,7 +38,7 @@ All modeling adheres strictly to classical supervised machine learning paradigms
 
 1. **Stratified Prior Baseline** (Empirical probability benchmark)
 2. **Logistic Regression** (L2 regularized, cost-sensitive balanced class weighting)
-3. **Gaussian Naive Bayes** (Numerical variance floor smoothing $\text{var\_smoothing} = 10^{-9}$)
+3. **Gaussian Naive Bayes** (Numerical variance floor smoothing `var_smoothing` $= 10^{-9}$)
 4. **Decision Tree Classifier** (Pre-pruning: `max_depth=6`, `min_samples_leaf=50`, balanced weights)
 5. **$k$-Nearest Neighbours** ($k=51$, Euclidean metric, stratified subsample $n=30\text{k}$)
 6. **Single-Layer Perceptron** (Mistake-driven threshold updates with L2 penalty)
