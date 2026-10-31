@@ -2,8 +2,7 @@
 
 **Course:** Machine Learning (B.Sc. (H) Computer Science, Semester VI) — University of Delhi  
 **Project Allocation:** Problem No. 42 (`ML_Application_Problems.xlsx`)  
-**Author:** Khushveer Kaur (Roll No.: 24020570052)  
-**Supervisor:** Course Instructor  
+**Author:** Khushveer Kaur   
 **SDG Focus:** SDG 1 (No Poverty) & SDG 8 (Decent Work and Economic Growth)  
 **Article Type:** Applied / Academic Research Paper (Journal Format)
 
