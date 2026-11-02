@@ -88,7 +88,9 @@ Subgroup analysis comparing Thin-File (unbanked, first-time, $n = 26,010$) versu
 
 The repository generates publication-grade figures:
 - **`fig1_missingness.png`**: Missing value profile across raw features.
-- **`fig2_workflow.png`**: End-to-End 6-stage leakage-free methodology flowchart.
+-  End-to-End 6-stage leakage-free methodology flowchart.
+ <img width="2160" height="1260" alt="Image" src="https://github.com/user-attachments/assets/1a2b440d-c4b7-4f99-adcb-819a6f25e6db" />
+ 
 - **`fig3_roc_curves.png`**: ROC curves comparing all 7 classifiers against the baseline.
 - **`fig4_fairness.png`**: Subgroup error & approval rate disparity with DIR callout.
 
