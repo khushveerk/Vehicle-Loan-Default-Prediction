@@ -197,6 +197,92 @@ The MLP is a feedforward neural network with two hidden layers containing 64 and
 
 ---
 
+🧮 Understanding the Mathematical Concepts
+
+This section explains the main mathematical ideas behind the project.
+
+1. Logistic Regression and the Sigmoid Function
+
+Logistic Regression calculates a linear combination of input features:
+
+z = β₀ + β₁x₁ + β₂x₂ + ... + βₙxₙ
+
+The sigmoid function converts this value into a probability:
+
+P(Y = 1 | X) = 1 / (1 + e⁻ᶻ)
+
+The resulting probability represents the model's estimated likelihood of default.
+
+2. Gini Impurity
+
+Gini impurity measures the degree of class mixing within a decision-tree node.
+
+Gini = 1 - Σ(pᵢ²)
+
+Where pᵢ represents the proportion of observations belonging to class i.
+
+Gini = 0: The node contains only one class.
+
+Higher Gini: The node contains a greater mixture of classes.
+
+Decision Trees select splits that reduce impurity.
+
+3. Bayesian Classification
+
+Naive Bayes uses Bayes' theorem:
+
+P(C | X) = [P(X | C) × P(C)] / P(X)
+
+It estimates the probability that an observation belongs to a particular class given its feature values.
+
+Gaussian Naive Bayes models the conditional distribution of numerical features using Gaussian distributions.
+
+4. K-Nearest Neighbours
+
+Euclidean distance between two observations is calculated as:
+
+d(x,y) = √Σ(xᵢ - yᵢ)²
+
+The algorithm identifies the nearest training observations and predicts the majority class among the selected neighbours.
+
+5. Perceptron
+
+The Perceptron calculates:
+
+z = wᵀx + b
+
+A threshold function determines the predicted class.
+
+During training, weights are adjusted when the model makes an incorrect prediction.
+
+6. Multilayer Perceptron
+
+A neural-network neuron calculates:
+
+z = Σ(wᵢxᵢ) + b
+
+The ReLU activation function is:
+
+ReLU(z) = max(0,z)
+
+The network learns suitable weights through backpropagation and optimization.
+
+7. Standardization
+
+Standardization transforms numerical features into a comparable scale.
+
+z = (x - μ) / σ
+
+Where:
+
+x = Original feature value
+
+μ = Training-set mean
+
+σ = Training-set standard deviation
+
+The scaling parameters are learned from the training partition.
+
 ## 6. Experimental Setup
 
 The dataset is divided into training and holdout test partitions using stratified sampling. Five-fold stratified cross-validation is used for model selection on the training data. The final benchmark metrics below are the values printed by the latest successful execution of `run_experiments.py`.
