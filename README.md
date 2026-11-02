@@ -394,7 +394,7 @@ These results raise an important financial-inclusion concern: applicants without
 
 The audit establishes an empirical disparity in this experiment. It does not establish that thin-file status alone caused the disparity.
 
-> **Figure update required:** The currently supplied fairness chart contains values that do not match the latest terminal output. Regenerate it using the subgroup values in the table above before adding it to the repository as the current result.
+<img width="4081" height="2668" alt="image" src="https://github.com/user-attachments/assets/39b302d2-0644-4b62-b07b-8b305935025e" />
 
 ---
 
