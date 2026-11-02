@@ -107,10 +107,7 @@ The `Date.of.Birth` field uses a two-digit year representation. The century roll
 The fields `AVERAGE.ACCT.AGE` and `CREDIT.HISTORY.LENGTH` contain duration strings such as `2yrs 5mon`. These are parsed into integer month values.
 
 For example:
-
-\[
-2 \times 12 + 5 = 29\text{ months}
-\]
+(2 × 12) + 5 = 29 months
 
 ### 3.4 Thin-file identification
 
