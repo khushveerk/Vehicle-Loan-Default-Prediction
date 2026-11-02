@@ -142,7 +142,7 @@ The experiment follows a sequence of data preparation, model selection, evaluati
 7. **Evaluate:** Compare predictions on the holdout test set.
 8. **Audit subgroup outcomes:** Compare thin-file and established borrowers.
 
-> **Figure update required:** The currently supplied workflow image contains an older DIR value (0.781). Replace that annotation with the latest result (0.585) before publishing the image as the current workflow figure.
+<img width="4880" height="3080" alt="image" src="https://github.com/user-attachments/assets/6462d4e6-4420-4506-96c9-f4904a1807e7" />
 
 ---
 
