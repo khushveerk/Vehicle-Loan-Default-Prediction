@@ -13,7 +13,7 @@ An applied machine learning project that studies early vehicle-loan default pred
 
 ---
 
-## 1. Project Overview
+## 1. 📌Project Overview
 
 Vehicle financing can help households obtain productive assets such as two-wheelers, auto-rickshaws and light commercial vehicles. For people entering the formal credit system for the first time, however, the absence of an established credit-bureau history can make credit assessment difficult.
 
@@ -23,7 +23,7 @@ The experiment uses 233,154 records from the L&T Financial Services Vehicle Loan
 
 A separate subgroup audit compares observed default rates, model-flagged rejection rates, false positive rates and approval rates for thin-file and established borrowers.
 
-### Research objectives
+### 🎯Research objectives
 
 - Build a supervised binary-classification pipeline for vehicle-loan default prediction.
 - Compare classical classifiers using multiple evaluation metrics.
@@ -33,7 +33,7 @@ A separate subgroup audit compares observed default rates, model-flagged rejecti
 - Calculate the Disparate Impact Ratio (DIR) using subgroup approval rates.
 - Discuss the implications of these results for financial inclusion.
 
-### Project at a glance
+### ✨ Key Project Highlights
 
 | Component | Details |
 |---|---|
@@ -52,7 +52,7 @@ A separate subgroup audit compares observed default rates, model-flagged rejecti
 
 ---
 
-## 2. Dataset
+## 2.  📊Dataset
 
 **Source:** [L&T Vehicle Loan Default Prediction — Kaggle](https://www.kaggle.com/datasets/mamtadhaker/lt-vehicle-loan-default-prediction)
 
@@ -355,9 +355,7 @@ The subgroup results show that the model flags a larger proportion of thin-file 
 
 The False Positive Rate (FPR) measures the proportion of actual non-defaulters that the model incorrectly classifies as defaulters:
 
-\[
-FPR=\frac{FP}{FP+TN}
-\]
+`FPR = FP / (FP + TN)`
 
 The reported FPR is 59.2% for thin-file borrowers and 31.1% for established borrowers.
 
@@ -365,9 +363,7 @@ The reported FPR is 59.2% for thin-file borrowers and 31.1% for established borr
 
 The approval rate is the proportion of a subgroup that is not flagged for rejection:
 
-\[
-Selection\ Rate=\frac{Approved\ Applicants}{Total\ Applicants}
-\]
+`Selection Rate = Approved Applicants / Total Applicants`
 
 The reported selection rates are:
 
@@ -378,15 +374,13 @@ The reported selection rates are:
 
 The Disparate Impact Ratio compares the selection rate of the group being examined with that of the reference group:
 
-\[
-DIR=\frac{Selection\ Rate_{Thin-File}}{Selection\ Rate_{Established}}
-\]
+`DIR = Selection Rate of Thin-File Group / Selection Rate of Established Group`
 
-Using the reported approval rates:
+Substituting the observed values:
 
-\[
-DIR=\frac{37.9}{64.8}\approx 0.585
-\]
+`DIR = 37.9 / 64.8`
+
+`DIR ≈ 0.585`
 
 The resulting ratio is below the commonly used 0.80 Four-Fifths screening benchmark.
 
@@ -456,7 +450,7 @@ This project is an academic machine learning benchmark and should not be used as
 
 ---
 
-## 12. How to Run the Project
+## 12. 🚀How to Run the Project
 
 ### Requirements
 
@@ -495,7 +489,7 @@ The experiment script runs the training and evaluation pipeline. The plotting sc
 
 ---
 
-## 13. Repository Structure
+## 13.🗂️ Repository Structure
 
 ```text
 Vehicle-Loan-Default-Prediction/
@@ -530,7 +524,7 @@ Vehicle-Loan-Default-Prediction/
 
 ---
 
-## 14. References
+## 14.📚 References
 
 1. Pedregosa, F. et al. (2011). “Scikit-learn: Machine learning in Python.” *Journal of Machine Learning Research*, 12, 2825–2830.
 2. Hastie, T., Tibshirani, R., and Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction*. 2nd ed. Springer.
@@ -541,7 +535,7 @@ Vehicle-Loan-Default-Prediction/
 
 ---
 
-## Research Paper
+## 📄Research Paper
 
 The accompanying six-page research paper presents the study's motivation, methodology, model benchmark, subgroup audit and discussion.
 
