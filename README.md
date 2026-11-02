@@ -94,7 +94,9 @@ The repository generates publication-grade figures:
 -  End-to-End 6-stage leakage-free methodology flowchart.
  <img width="2160" height="1260" alt="Image" src="https://github.com/user-attachments/assets/1a2b440d-c4b7-4f99-adcb-819a6f25e6db" />
  
-- **`fig3_roc_curves.png`**: ROC curves comparing all 7 classifiers against the baseline.
+-  ROC curves comparing all 7 classifiers against the baseline.
+  <img width="1950" height="1350" alt="Image" src="https://github.com/user-attachments/assets/fc0317b0-f963-449d-b91c-66194c0d2f0a" />
+  
 - **`fig4_fairness.png`**: Subgroup error & approval rate disparity with DIR callout.
 
 ---
