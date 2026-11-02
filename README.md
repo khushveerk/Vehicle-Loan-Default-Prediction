@@ -94,7 +94,7 @@ Missingness is examined across the raw variables. In the supplied dataset, `Empl
 
 The missing category is assigned `Unemployed_or_Self` and subsequently dummy-encoded, as described in the project methodology.
 
-![Missing-value profile](https://github.com/user-attachments/assets/94567bbe-967b-45da-9e9e-48a818585a8b)
+<img width="3679" height="1988" alt="image" src="https://github.com/user-attachments/assets/9df5a941-cfe5-4084-9eef-bfcc31853fcb" />
 
 *Figure 1. Percentage of missing values per variable in the raw training dataset.*
 
