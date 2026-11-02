@@ -328,7 +328,7 @@ The balanced Logistic Regression and Decision Tree configurations identify a muc
 
 ROC curves compare the True Positive Rate against the False Positive Rate at different classification thresholds. ROC-AUC summarizes a model's ability to rank positive cases above negative cases.
 
-> **Figure update required:** The currently supplied ROC image displays AUC values that differ from the latest terminal output. Regenerate `fig3_roc_curves.png` using the same latest experiment results before embedding it here. Do not use the old plotted AUC labels as the current benchmark.
+<img width="3681" height="2675" alt="image" src="https://github.com/user-attachments/assets/746ba3d8-bf32-4500-8bf4-287f67acb85a" />
 
 ---
 
