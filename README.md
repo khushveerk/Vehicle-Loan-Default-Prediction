@@ -97,7 +97,9 @@ The repository generates publication-grade figures:
 -  ROC curves comparing all 7 classifiers against the baseline.
   <img width="1950" height="1350" alt="Image" src="https://github.com/user-attachments/assets/fc0317b0-f963-449d-b91c-66194c0d2f0a" />
   
-- **`fig4_fairness.png`**: Subgroup error & approval rate disparity with DIR callout.
+-  Subgroup error & approval rate disparity with DIR callout.
+ <img width="1950" height="1200" alt="Image" src="https://github.com/user-attachments/assets/cd0cec5c-501a-41de-bebb-f019626354db" />
+
 
 ---
 
