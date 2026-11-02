@@ -1,4 +1,4 @@
-                                    # Vehicle-Loan Default Prediction for First-Time Borrowers: A Credit-Risk Benchmark and Financial Inclusion Audit
+   # Vehicle-Loan Default Prediction for First-Time Borrowers: A Credit-Risk Benchmark and Financial Inclusion Audit
 
 
 **Course:** Machine Learning (B.Sc. (H) Computer Science, Semester VI) — University of Delhi  
