@@ -84,10 +84,13 @@ Subgroup analysis comparing Thin-File (unbanked, first-time, $n = 26,010$) versu
 
 ---
 
-## 🖼️ Visualizations
+##  Visualizations
 
 The repository generates publication-grade figures:
-- **`fig1_missingness.png`**: Missing value profile across raw features.
+
+-  Missing value profile across raw features.
+  <img width="1950" height="960" alt="Image" src="https://github.com/user-attachments/assets/94567bbe-967b-45da-9e9e-48a818585a8b" />
+  
 -  End-to-End 6-stage leakage-free methodology flowchart.
  <img width="2160" height="1260" alt="Image" src="https://github.com/user-attachments/assets/1a2b440d-c4b7-4f99-adcb-819a6f25e6db" />
  
